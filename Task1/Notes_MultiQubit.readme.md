@@ -44,6 +44,13 @@
 or (|0><0|+ |01><01|) Tensor Isub(4) + |11><11| tensor X = CCX (toffoli gate)
 
 
+- most of the circuits can be simulated through ibms service. and shown in qsphere 
+
+- see for single qubits how does it look like in bloch sphere (bear in mind it is a 3D space and one of the amplitudes will always be zero)
+
+- Qiskit Uses Little Endian whereas some books use Big Endian. to convert use qc.reverse_bits();
+
+
 ## Quantum Information for Multi-Qubit
 -
 
@@ -52,6 +59,12 @@ or (|0><0|+ |01><01|) Tensor Isub(4) + |11><11| tensor X = CCX (toffoli gate)
 
 - Why is there uncertainty in the remaining state when a system is measured for a certain state?
 
+- Find the main postulates of QM governing quantum information. 
 
+- Find the main problems related to quantum information and limitations.
+
+- What is a phase in such a context and how does it differ for all gates?
+ 
+ 
 
 
