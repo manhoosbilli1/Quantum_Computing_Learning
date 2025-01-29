@@ -51,9 +51,31 @@ or (|0><0|+ |01><01|) Tensor Isub(4) + |11><11| tensor X = CCX (toffoli gate)
 - Qiskit Uses Little Endian whereas some books use Big Endian. to convert use qc.reverse_bits();
 
 
-## Quantum Information for Multi-Qubit
--
+## Quantum Circuits 
+- AER simulator is a simulator to simulate quantum computer on your device
+- Create bell states by creating a program on your own. 
 
+
+### Phase Gate 
+- Phase gate adds a phase to the state. This is different than Rotation which also adds a phase but that is relative. 
+- Z gate is a special case of phase gate with pi as the phase. this add a local phase to the state |11> . 
+- Phase does not change the probabilities of state
+- Inverse of P is just phi => -phi as the change in iots due to inverse 
+- P gate rotates about z axis counter clockwise but inverse of p rotates clockwise. 
+- Global phase make no difference to a set because when we find probabilities it turns out to be the same. 
+- Phases where the minus sign or some angle is being multiplied with only a single or few components is relative phase. 
+- Local phases matter or not? 
+- No Cloning theorem: it's not possible. because in order to know a state one has to observe it. that collapses the state to 
+  a reduced state in process destroying the state. hence if it is destroyed it can't be copied? No cloning is not possible because of violation of linearity of quantum mechanics As well
+  as because mathematically | psi > ten |psi > does not equate to a cloned state without having cross terms within it. 
+- An arbitrary state cannot be perfectly cloned but it could be cloned to some extent with inaccuracy 
+- Basis states can be cloned for example using a CNOT gate but only states or states that are in some sort of superposition impposible to clone perfectly. 
+
+
+
+
+#### Phase Gate and bloch sphere
+- The P gate performs a rotation about the Z axis given by angle in radians. in the counter 
 # Questions
 - What does doing a norm do for a vector and what does it mean in complex space?
 
@@ -65,6 +87,6 @@ or (|0><0|+ |01><01|) Tensor Isub(4) + |11><11| tensor X = CCX (toffoli gate)
 
 - What is a phase in such a context and how does it differ for all gates?
  
- 
+
 
 
