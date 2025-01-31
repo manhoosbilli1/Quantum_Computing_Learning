@@ -71,7 +71,19 @@ or (|0><0|+ |01><01|) Tensor Isub(4) + |11><11| tensor X = CCX (toffoli gate)
 - An arbitrary state cannot be perfectly cloned but it could be cloned to some extent with inaccuracy 
 - Basis states can be cloned for example using a CNOT gate but only states or states that are in some sort of superposition impposible to clone perfectly. 
 
+- Quantum Circuits is a bit weak.. review again. especially after inner products. 
 
+
+### Entanglement 
+- Is a phenomena where a qubit has lost it's individual identity and has come into superposition 
+- with some other qubit or qubits such that it cannot be sepereted or filtered to get initial state
+- Entanglement tells us that non orthogonal states can not be discriminated 
+
+### Teleportation
+
+### Super dense coding 
+
+### CHSH Game
 
 
 #### Phase Gate and bloch sphere
